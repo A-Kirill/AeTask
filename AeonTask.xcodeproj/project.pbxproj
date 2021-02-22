@@ -74,23 +74,103 @@
 		232ADDF225E396FB00116E41 /* AeonTask */ = {
 			isa = PBXGroup;
 			children = (
-				232ADDF325E396FB00116E41 /* AppDelegate.swift */,
-				232ADDF525E396FB00116E41 /* SceneDelegate.swift */,
-				232ADDF725E396FB00116E41 /* ViewController.swift */,
-				232ADDF925E396FB00116E41 /* Main.storyboard */,
-				232ADDFC25E396FC00116E41 /* Assets.xcassets */,
-				232ADDFE25E396FC00116E41 /* LaunchScreen.storyboard */,
+				232ADE2525E4480200116E41 /* App */,
+				232ADE2A25E448C400116E41 /* Core */,
+				232ADE2E25E4493A00116E41 /* Resources */,
+				232ADE2F25E4496700116E41 /* Environments */,
 				232ADE0125E396FC00116E41 /* Info.plist */,
-				232ADE0C25E3A36D00116E41 /* ResponseResult.swift */,
-				232ADE1225E3D96D00116E41 /* ResponseLogin.swift */,
-				232ADE0F25E3A8A500116E41 /* AeonService.swift */,
-				232ADE2225E4258200116E41 /* CustomViewCell.swift */,
-				232ADE1625E40EC700116E41 /* SignInView.swift */,
-				232ADE1925E40F4000116E41 /* CustomInputTextView.swift */,
-				232ADE1C25E4229500116E41 /* CustomViewCell.xib */,
-				232ADE1F25E4249800116E41 /* TransactionsViewController.swift */,
 			);
 			path = AeonTask;
+			sourceTree = "<group>";
+		};
+		232ADE2525E4480200116E41 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				232ADE2825E4485800116E41 /* Flows */,
+				232ADE2725E4482F00116E41 /* Entity */,
+				232ADE2625E4481300116E41 /* BusinessLogic */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		232ADE2625E4481300116E41 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				232ADE0F25E3A8A500116E41 /* AeonService.swift */,
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		232ADE2725E4482F00116E41 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				232ADE0C25E3A36D00116E41 /* ResponseResult.swift */,
+				232ADE1225E3D96D00116E41 /* ResponseLogin.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		232ADE2825E4485800116E41 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				232ADDF925E396FB00116E41 /* Main.storyboard */,
+				232ADE2C25E448F000116E41 /* Views */,
+				232ADE2B25E448E700116E41 /* Controllers */,
+				232ADE2925E4488200116E41 /* Cell */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		232ADE2925E4488200116E41 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				232ADE1C25E4229500116E41 /* CustomViewCell.xib */,
+				232ADE2225E4258200116E41 /* CustomViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		232ADE2A25E448C400116E41 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				232ADE1925E40F4000116E41 /* CustomInputTextView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		232ADE2B25E448E700116E41 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				232ADDF725E396FB00116E41 /* ViewController.swift */,
+				232ADE1F25E4249800116E41 /* TransactionsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		232ADE2C25E448F000116E41 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				232ADE1625E40EC700116E41 /* SignInView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		232ADE2E25E4493A00116E41 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				232ADDFC25E396FC00116E41 /* Assets.xcassets */,
+				232ADDFE25E396FC00116E41 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		232ADE2F25E4496700116E41 /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+				232ADDF325E396FB00116E41 /* AppDelegate.swift */,
+				232ADDF525E396FB00116E41 /* SceneDelegate.swift */,
+			);
+			path = Environments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
