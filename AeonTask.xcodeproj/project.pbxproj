@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,15 @@
 		232ADDFB25E396FB00116E41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 232ADDF925E396FB00116E41 /* Main.storyboard */; };
 		232ADDFD25E396FC00116E41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 232ADDFC25E396FC00116E41 /* Assets.xcassets */; };
 		232ADE0025E396FC00116E41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 232ADDFE25E396FC00116E41 /* LaunchScreen.storyboard */; };
+		232ADE0A25E3979900116E41 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 232ADE0925E3979900116E41 /* Alamofire */; };
+		232ADE0D25E3A36D00116E41 /* ResponseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232ADE0C25E3A36D00116E41 /* ResponseResult.swift */; };
+		232ADE1025E3A8A500116E41 /* AeonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232ADE0F25E3A8A500116E41 /* AeonService.swift */; };
+		232ADE1325E3D96D00116E41 /* ResponseLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232ADE1225E3D96D00116E41 /* ResponseLogin.swift */; };
+		232ADE1725E40EC700116E41 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232ADE1625E40EC700116E41 /* SignInView.swift */; };
+		232ADE1A25E40F4000116E41 /* CustomInputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232ADE1925E40F4000116E41 /* CustomInputTextView.swift */; };
+		232ADE1D25E4229500116E41 /* CustomViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 232ADE1C25E4229500116E41 /* CustomViewCell.xib */; };
+		232ADE2025E4249800116E41 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232ADE1F25E4249800116E41 /* TransactionsViewController.swift */; };
+		232ADE2325E4258200116E41 /* CustomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232ADE2225E4258200116E41 /* CustomViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,14 @@
 		232ADDFC25E396FC00116E41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		232ADDFF25E396FC00116E41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		232ADE0125E396FC00116E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		232ADE0C25E3A36D00116E41 /* ResponseResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseResult.swift; sourceTree = "<group>"; };
+		232ADE0F25E3A8A500116E41 /* AeonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AeonService.swift; sourceTree = "<group>"; };
+		232ADE1225E3D96D00116E41 /* ResponseLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseLogin.swift; sourceTree = "<group>"; };
+		232ADE1625E40EC700116E41 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		232ADE1925E40F4000116E41 /* CustomInputTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputTextView.swift; sourceTree = "<group>"; };
+		232ADE1C25E4229500116E41 /* CustomViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomViewCell.xib; sourceTree = "<group>"; };
+		232ADE1F25E4249800116E41 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		232ADE2225E4258200116E41 /* CustomViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				232ADE0A25E3979900116E41 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +81,14 @@
 				232ADDFC25E396FC00116E41 /* Assets.xcassets */,
 				232ADDFE25E396FC00116E41 /* LaunchScreen.storyboard */,
 				232ADE0125E396FC00116E41 /* Info.plist */,
+				232ADE0C25E3A36D00116E41 /* ResponseResult.swift */,
+				232ADE1225E3D96D00116E41 /* ResponseLogin.swift */,
+				232ADE0F25E3A8A500116E41 /* AeonService.swift */,
+				232ADE2225E4258200116E41 /* CustomViewCell.swift */,
+				232ADE1625E40EC700116E41 /* SignInView.swift */,
+				232ADE1925E40F4000116E41 /* CustomInputTextView.swift */,
+				232ADE1C25E4229500116E41 /* CustomViewCell.xib */,
+				232ADE1F25E4249800116E41 /* TransactionsViewController.swift */,
 			);
 			path = AeonTask;
 			sourceTree = "<group>";
@@ -83,6 +109,9 @@
 			dependencies = (
 			);
 			name = AeonTask;
+			packageProductDependencies = (
+				232ADE0925E3979900116E41 /* Alamofire */,
+			);
 			productName = AeonTask;
 			productReference = 232ADDF025E396FB00116E41 /* AeonTask.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +139,9 @@
 				Base,
 			);
 			mainGroup = 232ADDE725E396FB00116E41;
+			packageReferences = (
+				232ADE0825E3979800116E41 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 232ADDF125E396FB00116E41 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				232ADE0025E396FC00116E41 /* LaunchScreen.storyboard in Resources */,
+				232ADE1D25E4229500116E41 /* CustomViewCell.xib in Resources */,
 				232ADDFD25E396FC00116E41 /* Assets.xcassets in Resources */,
 				232ADDFB25E396FB00116E41 /* Main.storyboard in Resources */,
 			);
@@ -138,8 +171,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				232ADDF825E396FB00116E41 /* ViewController.swift in Sources */,
+				232ADE2325E4258200116E41 /* CustomViewCell.swift in Sources */,
+				232ADE1725E40EC700116E41 /* SignInView.swift in Sources */,
+				232ADE2025E4249800116E41 /* TransactionsViewController.swift in Sources */,
+				232ADE0D25E3A36D00116E41 /* ResponseResult.swift in Sources */,
 				232ADDF425E396FB00116E41 /* AppDelegate.swift in Sources */,
+				232ADE1025E3A8A500116E41 /* AeonService.swift in Sources */,
+				232ADE1325E3D96D00116E41 /* ResponseLogin.swift in Sources */,
 				232ADDF625E396FB00116E41 /* SceneDelegate.swift in Sources */,
+				232ADE1A25E40F4000116E41 /* CustomInputTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +381,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		232ADE0825E3979800116E41 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		232ADE0925E3979900116E41 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 232ADE0825E3979800116E41 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 232ADDE825E396FB00116E41 /* Project object */;
 }
